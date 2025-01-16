@@ -1,6 +1,7 @@
 Class 1
 
-This class will mainly consist of:
+This class will mainly consist of the following. We will cover what we have time to cover, and continue where we leave off the following class:
+
 -introductions
 -introducing the material at a high level
 -evaluating where the student is at

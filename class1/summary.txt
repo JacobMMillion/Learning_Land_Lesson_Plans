@@ -1,0 +1,21 @@
+Class 1
+
+This class will mainly consist of:
+-introductions
+-introducing the material at a high level
+-evaluating where the student is at
+-get set up with replit? Ensure student has a way to run code
+-introducing / reviewing basic topics (intro.py)
+-exploring our first game (guessing_game.py)
+
+basic topics:
+-print statements
+-variables
+-conditionals
+-loops
+-user input
+-functions
+-lists
+
+first game:
+-guessing game, makes use of conditionals, loops, variables

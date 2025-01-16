@@ -11,8 +11,3 @@ The goal of this repository is to:
 ## Contents
 - **Lesson Plans**: Structured plans to guide Python instruction.
 - **Code Examples**: Concise Python programs demonstrating key concepts for each lesson
-
-## Getting Started
-1. Clone this repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git

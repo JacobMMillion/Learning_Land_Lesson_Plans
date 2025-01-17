@@ -1,1 +1,14 @@
-this will be a summary...
+Class 2
+
+This class will mainly consist of the following. 
+We will cover what we have time to cover, and continue where we leave off the following class:
+
+-the modulus operation
+-more conditional and loop review
+-time and space complexity
+-break keyword
+-sleep()
+-introduction to pygame
+
+mod.py:
+Covers the above operations

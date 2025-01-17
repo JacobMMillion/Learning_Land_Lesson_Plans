@@ -2,79 +2,31 @@
 1. Printing to the screen
    - we use the `print()` function to print to the screen
 """
-# Display a simple message
-print("Hello, world!")
-
-# Print multiple items
-print("Python is", "fun to learn!")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# """
-# 2. Variables and printing to the screen
-#    - variables store information! (like text or numbers, name or player health for example)
-# """
+# # Basic variable modification and printing to the screen
+# health = 100 # int
+# name = "Raymond" # string
+# speed = 5
+
+# print("The players name is:", name)
+# print("The players health is:", health)
+# print("The players speed is:", speed)
+# print("---------------------")
+
+# print("player took some damage, and it made them slow down!")
+# health = health - 10
+# speed = speed - 1
+
+# print("The players name is:", name)
+# print("The players health is:", health)
+# print("The players speed is:", speed)
+# print("---------------------")
+
+
+"""
+2. Variables and printing to the screen
+   - variables store information! (like text or numbers, name or player health for example)
+   - explain types of variables: bool, int, string (Python not type-def though)
+"""
 # # Storing text in a variable
 # name = "Jacob"
 # print("My name is", name)
@@ -88,33 +40,41 @@ print("Python is", "fun to learn!")
 # print("Next year, I will be", age, "years old")
 
 
-# """
-# 3. Conditionals
-#    - conditionals allow different paths of execution depending on the value of variables
-# """
+"""
+3. Conditionals
+   - conditionals allow different paths of execution depending on the value of variables
+"""
 # # Simple if-else example
-# age = 15
+# health = 100
 
-# if age >= 18:
-#     print("You are an adult!")
+# # take some damage
+# health = health - 100
+
+# if health <= 0:
+#    print("Player has died!")
 # else:
-#     print("You are a kid!")
+#    print("Player is not dead!")
+#    print(health)
+
 
 # # Checking multiple conditions
-# score = 85
+# score = 50
 
 # if score >= 90:
-#     print("You got an A!")
+#    print("You got an A!")
 # elif score >= 80:
-#     print("You got a B!")
+#    print("You got a B!")
 # else:
-#     print("You got a C or lower!")
+#    print("You got a C or lower!")
 
 
-# """
-# 4. Loops
-#    - loops allow programs to repeat tasks
-# """
+# LEFT OFF HERE
+
+
+"""
+4. Loops
+   - loops allow programs to repeat tasks
+"""
 # # FOR LOOP: Counting from 1 to 5
 # # `for` loops allow us to repeat a specific number of times
 # for i in range(1, 6):
@@ -132,10 +92,10 @@ print("Python is", "fun to learn!")
 #     health -= 1  # Decrease health by 1
 
 
-# """
-# 5. Get User Input
-#    - we do this with the `input` function
-# """
+"""
+5. Get User Input
+   - we do this with the `input` function
+"""
 # # Ask for the user's name
 # name = input("What is your name? ")
 # print("Hi", name, "nice to meet you!")
@@ -158,10 +118,10 @@ print("Python is", "fun to learn!")
 # greet("Bob")
 
 
-# """
-# 7. Lists
-#    - lists store multiple values in one variable
-# """
+"""
+7. Lists
+   - lists store multiple values in one variable
+"""
 # # Create a list of favorite foods
 # foods = ["Pizza", "Burger", "Ice Cream"]
 # # Print all foods

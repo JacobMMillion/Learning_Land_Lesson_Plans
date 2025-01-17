@@ -23,7 +23,7 @@
 
 
 """
-2. Variables and printing to the screen
+2. More Variables and printing to the screen
    - variables store information! (like text or numbers, name or player health for example)
    - explain types of variables: bool, int, string (Python not type-def though)
 """
@@ -105,10 +105,10 @@
 # print("Your number is", number)
 
 
-# """
-# 6. Functions
-#    - functions allow us to make reusable blocks of code
-# """
+"""
+6. Functions
+   - functions allow us to make reusable blocks of code
+"""
 # # Define a function
 # def greet(name):
 #     print("Hello,", name)

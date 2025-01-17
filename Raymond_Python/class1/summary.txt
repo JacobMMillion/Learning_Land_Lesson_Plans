@@ -22,3 +22,6 @@ basic topics:
 
 first game:
 -guessing game, makes use of conditionals, loops, variables
+
+After class note:
+-Covered only intro, replit, and basic material through conditionals. Will pick up where we left off next class.

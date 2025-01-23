@@ -3,12 +3,21 @@ Class 2
 This class will mainly consist of the following. 
 We will cover what we have time to cover, and continue where we leave off the following class:
 
--the modulus operation
+-the modulus operation (cool math, useful for all kinds of things)
 -more conditional and loop review
 -time and space complexity
 -break keyword
 -sleep()
--introduction to pygame
+-introduction to Pygame!
 
 mod.py:
-Covers the above operations
+Covers basic modulus arithmetic
+
+basic_screen.py:
+Introduces the Pygame library, graws a simple GUI to the screen
+
+simple_event.py:
+Uses the modulus operating AND Pygame to create a simle visual counter
+
+movable_character.py:
+Uses the Pygame library to create a movable, rectangular character

@@ -1,6 +1,7 @@
 Class 2
 
-This class will mainly consist of the following. 
+This class will mainly consist of content outlined in the previous class.
+After we have finished coving this, we will dive into the content below. 
 We will cover what we have time to cover, and continue where we leave off the following class:
 
 -the modulus operation (cool math, useful for all kinds of things)

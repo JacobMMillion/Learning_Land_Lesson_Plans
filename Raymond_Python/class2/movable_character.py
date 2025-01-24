@@ -33,7 +33,7 @@ character_speed = 1
 running = True
 
 # Main game loop
-while running:
+while running == True:
     # Check for events (like key presses or closing the window)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:  # Check if the close button was clicked

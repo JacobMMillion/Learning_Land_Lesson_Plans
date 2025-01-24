@@ -10,17 +10,17 @@ screen_height = 600  # Height of the screen in pixels
 screen = pygame.display.set_mode((screen_width, screen_height))
 
 # Set the title of the window
-pygame.display.set_caption("My First Pygame Window")
+pygame.display.set_caption("The best game ever")
 
 # Choose a color for the screen background
 # Colors in pygame use the RGB format (Red, Green, Blue)
-background_color = (135, 206, 235)  # This is a light blue color
+background_color = (255, 255, 255)  # This is a white color
 
 # This variable will keep our game loop running
 running = True
 
 # Main game loop
-while running:
+while running == True:
     # Check for events (things like key presses or closing the window)
     for event in pygame.event.get():
         if event.type == pygame.QUIT:  # Check if the close button was clicked

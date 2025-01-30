@@ -8,9 +8,12 @@ We will cover what we have time to cover, and continue where we leave off the fo
 -time and space complexity
 
 -A more complex Pygame
--Using ChatGPT for for understanding, not solution
+-Using ChatGPT for for understanding, not solution ()
 
 health_and_enemy.py
 Uses the Pygame library to create a movable, rectangular character, and an enemy triangle that causes damage upon collision.
 Stats are displayed to the screen, and the game ends when the players health hits 0.
 
+ChatGPT_health_and_enemy.py
+ChatGPT generated code given a prompt describing the game above. We explore the code produced, and why this
+is not the best way to use ChatGPT

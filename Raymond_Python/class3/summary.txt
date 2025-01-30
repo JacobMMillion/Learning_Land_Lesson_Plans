@@ -1,0 +1,16 @@
+Class 3
+
+This class will mainly consist of content outlined in the previous class.
+After we have finished coving this, we will dive into the content below.
+We will cover what we have time to cover, and continue where we leave off the following class:
+
+-the modulus operation (cool math, useful for all kinds of things)
+-time and space complexity
+
+-A more complex Pygame
+-Using ChatGPT for for understanding, not solution
+
+health_and_enemy.py
+Uses the Pygame library to create a movable, rectangular character, and an enemy triangle that causes damage upon collision.
+Stats are displayed to the screen, and the game ends when the players health hits 0.
+

@@ -8,6 +8,7 @@ We will cover what we have time to cover, and continue where we leave off the fo
 -time and space complexity
 
 -A more complex Pygame
+-Coordinates on computers
 -Using ChatGPT for for understanding, not solution
 
 health_and_enemy.py

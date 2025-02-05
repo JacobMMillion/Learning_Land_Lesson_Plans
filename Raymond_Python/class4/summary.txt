@@ -1,0 +1,17 @@
+Class 4
+
+This class will mainly consist of content outlined in the previous class.
+After we have finished coving this, we will dive into the content below.
+We will cover what we have time to cover, and continue where we leave off the following class:
+
+-competitive programming (an intro!)
+-time and space complexity
+-A more complex Pygame, but having Raymond do it on his end
+-Using ChatGPT for for understanding, not solution, incremental development
+
+competitive_programming1.py
+competitive_programming2.py
+Practice competitive programming questions
+
+We will also review the more complex game with damage and enemy from the previous class,
+helping Raymond develop it on his end!

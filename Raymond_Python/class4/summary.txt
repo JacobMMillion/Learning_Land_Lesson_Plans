@@ -5,7 +5,6 @@ After we have finished coving this, we will dive into the content below.
 We will cover what we have time to cover, and continue where we leave off the following class:
 
 -competitive programming (an intro!)
--time and space complexity
 -A more complex Pygame, but having Raymond do it on his end
 -Using ChatGPT for for understanding, not solution, incremental development
 

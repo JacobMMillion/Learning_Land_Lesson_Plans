@@ -1,0 +1,16 @@
+Class 5
+
+This class will mainly consist of content outlined in the previous class.
+After we have finished coving this, we will dive into the content below.
+We will cover what we have time to cover, and continue where we leave off the following class:
+
+-Classes! Classes allow us to create reusable objects (like robots or cars), but personalize
+them differently! They are used everywhere and are essential in order to follow good OOP prinicples.
+
+-"Juicy Design" for games, and how to implement in python.
+
+files:
+
+(droid invasion from previous class)
+robot.py
+car.py

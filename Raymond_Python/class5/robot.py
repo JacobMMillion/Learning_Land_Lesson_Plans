@@ -1,6 +1,7 @@
 # robot.py
 
 class Robot:
+
     def __init__(self, name, model):
         # Initialize the robot with a name and model.
         self.name = name
@@ -22,7 +23,19 @@ class Robot:
 
 # Example usage:
 if __name__ == "__main__":
-    r2d2 = Robot("R2-D2", "Astromech")
-    r2d2.move("forward", 5)
-    r2d2.speak("Hello, human!")
-    r2d2.charge()
+
+
+    droid1 = Robot("C3PO", "Language Droid")
+    droid2 = Robot("R2-D2", "Astrotech")
+
+
+    droid1.speak("I can help you translate!")
+    droid2.speak("Beep Beep Beep")
+
+    droid1.move("left", 10)
+    droid2.move("right", 5)
+
+
+    # r2d2.move("forward", 5)
+    # r2d2.speak("Hello, human!")
+    # r2d2.charge()

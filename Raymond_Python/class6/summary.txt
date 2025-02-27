@@ -1,0 +1,29 @@
+Class 6
+
+This class will mainly consist of content outlined in the previous class.
+After we have finished coving this, we will dive into the content below.
+We will cover what we have time to cover, and continue where we leave off the following class:
+
+-Today we will look at the Python "Flask" library, as well as explore a little HTML and CSS,
+begining the creation of a dynamic website!
+
+files:
+- <website files, assorted>
+
+When building a Flask website, you'll often see a few extra folders besides your main Python file (like app.py). These folders help organize your project and keep different types of files separate. Here are the most common ones:
+
+1. Templates Folder
+What It Is:
+A folder called templates stores HTML files.
+Why It’s Important:
+Instead of writing all your HTML inside your Python code, you can create separate HTML files. This makes it easier to design and update your website's layout.
+Example Use:
+You might have a file called home.html that contains the HTML for your home page. In your Python code, you can use Flask’s render_template function to display this HTML.
+
+2. Static Folder
+What It Is:
+A folder named static is where you keep files that don’t change, like CSS (for styling), JavaScript (for interactivity), and images.
+Why It’s Important:
+Keeping these files separate makes your project organized. When you want to change the look of your website, you can update the CSS files here.
+Example Use:
+You might add a file called style.css in the static folder to make your page look prettier.

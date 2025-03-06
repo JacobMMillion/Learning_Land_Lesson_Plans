@@ -1,0 +1,340 @@
+Today we will review material we have covered thus far. We will revisit some topics as it seems relevant.
+
+CLASS 1: PYTHON BASICS & FIRST GAME
+MC 1.1: Which function is used to display output on the screen in Python?
+ A. input()
+ B. print()
+ C. len()
+ D. type()
+
+
+
+MC 1.2: Which keyword is used to create a function in Python?
+ A. func
+ B. define
+ C. def
+ D. function
+
+
+MC 1.2.2: What is a function? Why would we use one?
+
+
+
+MC 1.3: Which loop is most appropriate for iterating a specific number of times?
+ A. while loop
+ B. for loop
+
+
+
+MC 1.3.3: What is a loop? Why would we use one?
+
+MC 1.4: Which operator is used to test equality in Python?
+ A. =
+ B. ==
+ C. ===
+ D. !=
+
+
+
+MC 1.5: What does the following code output? (hint: remember that for loops start with i=0)
+ for i in range(3):
+  print(i)
+ A. 1 2 3
+ B. 0 1 2
+ C. 0 1 2 3
+ D. 1 2 3 4
+
+
+
+SA 1.1: Explain what a list is in Python and provide a simple example.
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────
+CLASS 2: MODULUS, LOOPS, & INTRODUCTION TO PYGAME
+MC 2.1: What does the modulus operator (%) do in Python?
+ A. Returns the quotient
+ B. Returns the remainder
+ C. Multiplies two numbers
+ D. Raises a number to a power
+
+
+
+MC 2.2: Which of the following correctly checks if a number x is even? (hint: if a number is divisible by 2 without a remainder, then it is even!)
+ A. if x % 2 == 0
+ B. if x / 2 == 0
+ C. if x % 2 = 0
+ D. if x // 2 == 0
+
+
+MC 2.3: What does the break statement do in a loop?
+ A. Skips the current iteration
+ B. Exits the loop entirely
+ C. Pauses the loop
+ D. Restarts the loop
+
+
+
+MC 2.4: Which library is introduced for creating games in this class?
+ A. NumPy
+ B. Tkinter
+ C. Pygame
+ D. Matplotlib
+
+
+
+MC 2.5: What does the following code print?
+ x = 7
+ if x % 2 == 0:
+  print("Even")
+ else:
+  print("Odd")
+
+ A. Even
+ B. Odd
+ C. 7
+ D. Error
+
+
+
+SA 2.1: Given the following code snippet, what is the output and why does the loop stop?
+ for i in range(10):
+  if i == 5:
+   break
+  print(i)
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────
+CLASS 3: ADVANCED PYGAME, COLLISION, & COMPLEXITY
+MC 3.1: What does “time complexity” measure?
+ A. Memory usage
+ B. Execution time relative to input size
+ C. Code readability
+ D. Battery consumption
+
+
+
+MC 3.1.1: While we didn’t talk about it in class, can you infer what space complexity is? Take a guess, and explain!
+
+
+
+MC 3.2: How might inefficient collision detection affect a game?
+ A. Improved graphics
+ B. Slower gameplay or lag
+ C. Increased score
+ D. Better user interface
+
+
+
+MC 3.3: Which statement is true regarding displaying player stats like health?
+ A. It slows down the game significantly
+ B. It provides real-time feedback to the player
+ C. It is unnecessary in most games
+ D. It only serves aesthetic purposes
+
+
+
+MC 3.4: In computer graphics, coordinates are used to:
+ A. Define color values
+ B. Determine positions on the screen
+ C. Generate random numbers
+ D. Calculate file sizes
+
+
+MC 3.5: What is the time complexity of the following function? O(1) means one operation occurs. O(n) means it may have to look at the whole list. O(log(n)) means it has to look at some of the list. O(n^2) means it has to look at the list twice MANY times.
+
+ def find_item(lst, target):
+  for item in lst:
+   if item == target:
+    return True
+  return False
+ A. O(1)
+ B. O(n)
+ C. O(log n)
+ D. O(n²)
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────
+CLASS 4: BASIC PROGRAMMING EXERCISES
+(Note: It is acceptable to express your answer using plain English or pseudocode—for example, using “<get input from user>” to capture your ideas.)
+
+MC 4.1: What does the following code output?
+ def add_numbers(a, b):
+  return a + b
+ print(add_numbers(3, 4))
+ A. 3 4
+ B. 7
+ C. "7"
+ D. Error
+
+
+
+SA 4.1: Write a simple Python program that prints "Hello" to the screen.
+
+
+
+SA 4.2: Write a Python program that:
+ - Defines a variable called tall and sets it equal to True.
+ - Uses an if-else statement to print "you are tall" if tall is True, and "you are not tall" otherwise.
+
+
+
+SA 4.3: Write a Python program that asks the user for a number and then prints "Even" if the number is even or "Odd" if the number is odd.
+
+
+
+SA 4.4: Write a Python function named add_numbers that takes two numbers as parameters and returns their sum.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────
+CLASS 5: OBJECT-ORIENTED PROGRAMMING & JUICY DESIGN
+MC 5.1: What is a class in Python?
+ A. A blueprint for creating objects
+ B. A function for arithmetic operations
+ C. A loop structure
+ D. A built-in module
+
+
+
+MC 5.2: Which of the following is an example of object-oriented programming?
+ A. Using functions only
+ B. Creating objects from classes
+ C. Writing a script without functions
+ D. Storing data in variables only
+
+
+
+MC 5.3: What does "Juicy Design" in game development emphasize?
+ A. High-resolution textures
+ B. Polished visual and audio feedback
+ C. Complex algorithms
+ D. Strict text-based output
+
+
+
+MC 5.4: How do classes contribute to code reusability?
+ A. They prevent code duplication by allowing creation of multiple objects from one blueprint
+ B. They force all code to be written in a single function
+ C. They make code run faster automatically
+ D. They allow code to be copied without modifications
+
+MC 5.5: What does the following code print?
+ class Robot:
+  def init(self, name):
+   self.name = name
+ r = Robot("Robo")
+ print(r.name)
+ A. Robo
+ B. Robot
+ C. Error
+ D. None
+
+
+SA 5.1: Describe one advantage of using classes when creating a game.
+
+
+
+SA 5.2: Define Object-Oriented Programming (OOP) in your own words.
+
+
+
+
+
+
+
+
+
+
+
+──────────────────────────────
+CLASS 6: WEB DEVELOPMENT WITH FLASK
+MC 6.1: Flask is primarily used for:
+ A. Game development
+ B. Data analysis
+ C. Web application development
+ D. Mobile app development
+
+
+
+MC 6.3: In the following code, what is the key used to pass data to the template?
+ @app.route('/')
+ def home():
+  message = "Welcome!"
+  return render_template('index.html', msg=message)
+ A. message
+ B. msg
+ C. index
+ D. home
+
+
+
+MC 6.2: Which function in Flask is used to render an HTML page with data?
+ A. send_file()
+ B. render_template()
+ C. create_page()
+ D. load_html()
+
+
+
+
+SA 6.1: Consider the following Flask code snippet:
+ from flask import Flask, render_template
+ app = Flask(name)
+ @app.route('/')
+ def index():
+  data = {"message": "Hello, world!"}
+  return render_template('index.html', data=data)
+Describe what happens when a user visits the root URL (/) and how the data is passed to the index.html template.
+
+
+
+SA 6.2: Now consider this second endpoint:
+ @app.route('/profile')
+ def profile():
+  user = {"username": "student", "bio": "I love coding."}
+  return render_template('profile.html', user=user)
+Explain what this endpoint does and how the data is made available in the profile.html template.
+

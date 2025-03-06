@@ -210,14 +210,43 @@ SA 4.4: Write a Python function named add_numbers that takes two numbers as para
 
 
 
+SA 4.5: 
+Given the code:
+
+name = input("Enter your name: ")
+print("Hello, " + name + "!")
+
+What happens when you run this program? Describe how the program uses the input.
+
+
+SA 4.6: 
+Consider the code below:
+
+my_list = [1, 2, 3, 4]
+for num in my_list:
+    print(num * 2)
+
+What will be printed when this code runs, and how does the loop work?
 
 
 
+SA 4.7:
+Writing a Simple Function
+
+How would you write a Python function named add that takes two numbers as parameters and returns their sum? Write a short example.
 
 
 
+SA 4.8:
+Look at this function and its call:
 
+def multiply(x, y):
+    return x * y
 
+result = multiply(4, 5)
+print(result)
+
+What will be printed, and what is the purpose of the multiply function?
 
 
 

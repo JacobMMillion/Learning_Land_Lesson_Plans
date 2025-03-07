@@ -36,7 +36,7 @@ MC 1.4: Which operator is used to test equality in Python?
 
 
 
-MC 1.5: What does the following code output? (hint: remember that for loops start with i=0)
+MC 1.5: What does the following code output? (hint: remember that for loops start with i=0, and go up to but not including the number in the range)
  for i in range(3):
   print(i)
  A. 1 2 3
@@ -181,6 +181,31 @@ MC 3.5: What is the time complexity of the following function? O(1) means one op
 CLASS 4: BASIC PROGRAMMING EXERCISES
 (Note: It is acceptable to express your answer using plain English or pseudocode—for example, using “<get input from user>” to capture your ideas.)
 
+MC 4.1.1 Defining and Using a Function
+
+def square(x):
+    return x * x
+
+result = square(4)
+print("Square of 4 is:", result)
+
+What does the function square do?
+What value is stored in result, and what is printed?
+How would you modify the function so that it returns the cube of a number instead?
+
+
+MC 4.1.2: Looping Through a List
+
+colors = ["red", "green", "blue"]
+for color in colors:
+    print("I like", color)
+
+What does the list colors contain?
+What is the output of this program?
+How can you add another color to the list so that it is included in the printed messages?
+
+
+
 MC 4.1: What does the following code output?
  def add_numbers(a, b):
   return a + b
@@ -247,6 +272,36 @@ result = multiply(4, 5)
 print(result)
 
 What will be printed, and what is the purpose of the multiply function?
+
+
+
+SA 4.9:
+The Role of Indentation
+Why is indentation important in Python? Give an example of how incorrect indentation can cause an error or change what the code does.
+
+
+
+
+SA 5.1:
+Basic If-Else Statement
+
+number = int(input("Enter a number: "))
+if number > 10:
+    print("That's a big number!")
+else:
+    print("That's a small number!")
+
+What is the user inputs 2? 7? 10? 12? 20?
+
+
+
+
+
+
+
+
+
+
 
 
 

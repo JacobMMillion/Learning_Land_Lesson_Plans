@@ -1,0 +1,3 @@
+Today we will do some practice codind problems, implementing some of what we have learned!
+
+This will be a chance to do some hands-on coding, make mistakes, and debug.

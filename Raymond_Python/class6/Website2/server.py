@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     # This function returns the text that will be shown on the home page
-    return render_template('index.html', message="Hello, World!")
+    return render_template('index.html', message="WELCOME TO AMAZON")
 
 # Check if the script is run directly (not imported) and run the app
 if __name__ == '__main__':

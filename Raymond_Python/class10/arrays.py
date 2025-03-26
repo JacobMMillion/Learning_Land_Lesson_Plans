@@ -11,3 +11,8 @@ for number in numbers:
 # Add a new number to the list
 numbers.append(60)
 print("Updated list:", numbers)
+
+
+
+# ALSO, let's briefly discuss `return`
+# this makes a function END! It can also return a value, but doesn't have to

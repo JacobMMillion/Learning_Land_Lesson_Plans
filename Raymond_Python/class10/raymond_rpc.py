@@ -1,10 +1,8 @@
-# This will be where we do our testing
 # TOPIC: The `random` library
 import random
 
 # TODO 4: Modify the print statements, so there is better spacing
 # we want a clear user interface
-
 
 # COMPUTER
 # TODO 5 (the very last thing): explore lists! Transition to Hangman!
@@ -28,8 +26,11 @@ def get_user_choice():
 def determine_winner(user_choice, computer_choice):
     if user_choice == computer_choice:
         return "tie"
-
-
+    if user_choice == "rock" and computer_choice == "scissors" or user_choice == "paper" and computer_choice == "rock" or user_choice == "scissors" and computer_choice == "paper":
+        return "player"
+    
+    return "computer"
+        
 def play_round():
     # Get the user's choice:
     user_choice = get_user_choice()
@@ -50,12 +51,6 @@ def play_round():
     if winner == "player":
         print("You won!")
 
-
-
-
-
-
-
 """
 ----------------------------------------------
 This kicks off the play_round function, and starts a round.
@@ -63,4 +58,7 @@ This kicks off the play_round function, and starts a round.
 TODO 2: Can we modify this so that we continuously call it while the user wants to play another round?
 ----------------------------------------------
 """
-play_round()
+
+while True:
+    play_round()
+    print("")

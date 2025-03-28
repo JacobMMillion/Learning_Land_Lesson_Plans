@@ -1,11 +1,7 @@
 import random
 
 def choose_word(word_list):
-    """Step 1: Selects a random word from the provided list."""
-    # 1.1: Use random.choice to pick a random word from the list.
-    # 1.2: Convert the word to lowercase.
-    # TODO: Implement the logic and return the selected word.
-    pass
+    return random.choices(word_list)[0]
 
 def display_word(word, guessed_letters):
     """
@@ -35,7 +31,9 @@ def get_guess(guessed_letters):
 def play_hangman():
     """Step 4: Runs the Hangman game."""
     # 4.1: Create a list of possible words.
-    word_list = ["python", "hangman", "programming", "code", "computer"]
+    word_list = ["apple","banana","melon","kiwi","tomato","berry","grape","coconut"]
+    word = choose_word(word_list)
+    print(word)
     
     # 4.2: Choose a random word using choose_word().
     # 4.3: Initialize guessed_letters as an empty set.

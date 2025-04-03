@@ -61,4 +61,4 @@ def main():
     play_hangman()
 
 if __name__ == '__main__':
-    main()
+    main() 

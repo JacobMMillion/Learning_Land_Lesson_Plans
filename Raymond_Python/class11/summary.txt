@@ -3,4 +3,4 @@ We started the hangman game last class, so will finish this. We will look at set
 
 This will be a chance to do some hands-on coding, make mistakes, and debug.
 
-memory.py and word_scramble.py are games we can do from here
+memory.py and word_scramble.py are games we can do from here 

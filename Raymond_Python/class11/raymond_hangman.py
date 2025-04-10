@@ -32,10 +32,11 @@ def play_hangman():
     """Step 4: Runs the Hangman game."""
     # 4.1: Create a list of possible words.
     word_list = ["apple","banana","melon","kiwi","tomato","berry","grape","coconut"]
-    word = choose_word(word_list)
-    print(word)
     
     # 4.2: Choose a random word using choose_word().
+    word = choose_word(word_list)
+    print(f"The word for this game is: {word}") #DEBUG
+
     # 4.3: Initialize guessed_letters as an empty set.
     # 4.4: Initialize incorrect_guesses to 0.
     # 4.5: Set max_incorrect (e.g., 6) for the allowed number of wrong guesses.

@@ -19,3 +19,5 @@ print("Updated list:", numbers)
 
 # ALSO, let's briefly discuss `return`
 # this makes a function END! It can also return a value, but doesn't have to
+
+# Lets also review loops, using arrays! We will need this for hangman

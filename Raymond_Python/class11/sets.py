@@ -1,5 +1,5 @@
 # SETS
-# change some things, and have type in chat the exact output in console
+# change some things, and have type in chat the exact output in console 
 
 # Let's create two sets. Sets don't allow duplicates!
 fruits = {"apple", "banana", "orange", "apple"}  # Notice 'apple' appears twice

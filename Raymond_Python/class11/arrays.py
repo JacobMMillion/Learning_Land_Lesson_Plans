@@ -2,17 +2,25 @@
 # change some things, and have type in chat the exact output in console
 
 # Create a list (array) of numbers
-numbers = [10, 20, 30, 40, 50]
+numbers = [10, "banana", 30, 40, 50, "apple", 400000]
 
-# Access and print the first element (index 0)
-print("The first number is:", numbers[0])
 
 # Loop through the list and print each number
-for number in numbers:
-    print("Number:", number)
+for item in numbers:
+    print("The item in the slot is:", item)
+
+
 
 # Add a new number to the list
-numbers.append(60)
+numbers.append("apple")
+numbers.append("apple")
+numbers.append("apple")
+numbers.append("apple")
+numbers.append("apple")
+numbers.append("apple")
+numbers.append("apple")
+
+
 print("Updated list:", numbers)
 
 

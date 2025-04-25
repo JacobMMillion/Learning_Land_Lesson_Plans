@@ -59,7 +59,7 @@ def play_hangman():
         print("")
         display_word(word, guessed_letters)
 
-        # 4.8: Display the number of incorrect guesses remaining.
+        # 4.8: Display the number of incorrect guesses remaining. 
         remaining = max_incorrect - incorrect_guesses
         print("Incorrect guesses remaining: ", remaining)
         # 4.9: Get a guess from the player using get_guess().

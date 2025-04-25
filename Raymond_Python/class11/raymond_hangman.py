@@ -22,20 +22,22 @@ def display_word(word, guessed_letters):
             display += " "
     # 2.5: Return the final string (trim extra spaces if needed).
     return display
-
-def get_guess(guessed_letters):
+def get_guess():
     """
     Step 3: Prompts the player to enter a letter.
     Checks that the input is a single alphabet character and hasn't been guessed before.
     """
     # 3.1: Prompt the user for a guess using input().
+    print("Guess a letter.")
+    guess = input()
     # 3.2: Check that the input is exactly one letter.
     # 3.3: Verify that the letter is alphabetical.
     # 3.4: Ensure that the letter has not been guessed already.
     # 3.5: If invalid, prompt again until a valid guess is entered.
     # 3.6: Return the valid guess.
-    pass
-
+    return guess
+    
+    
 def play_hangman():
     """Step 4: Runs the Hangman game."""
     # 4.1: Create a list of possible words.
@@ -51,8 +53,6 @@ def play_hangman():
 
     # 4.3: Initialize guessed_letters as an empty set.
     guessed_letters = set()
-    guessed_letters.add('a')
-
     # 4.4: Initialize incorrect_guesses to 0.
     incorrect_guesses = 0
 
@@ -60,21 +60,34 @@ def play_hangman():
     max_incorrect = 6
 
     # 4.6: Begin the game loop (while incorrect_guesses < max_incorrect).
-    while incorrect_guesses < max_incorrect:
+    while incorrect_guesses <= max_incorrect:
         # 4.7: Display the current state of the word using display_word().
-        print("entered the loop")
         print(display_word(word, guessed_letters))
-        break
         # 4.8: Display the number of incorrect guesses remaining.
+        print("incorrect_guesses remaining ", incorrect_guesses)
         # 4.9: Get a guess from the player using get_guess().
+        guess = get_guess()
         # 4.10: Add the guessed letter to guessed_letters.
+        guessed_letters.add(guess)
         # 4.11: Check if the guessed letter is in the word:
-        #       - If yes: Print a "Good guess!" message.
-        #         - Check if all letters in the word are guessed; if so, congratulate and exit.
-        #       - If no: Print a "Sorry, wrong guess." message and increment incorrect_guesses.
-        # 4.12: End the loop when the word is fully guessed or max_incorrect is reached.
-        # 4.13: If the word was not guessed correctly, print a "Game over" message along with the word.
-
+        if guess in word:
+            print("Good guess!")
+            for i in range(len(word)):
+                tempt = word[i]
+                if tempt in guessed_letters:
+                    if i == len(word) - 1:
+                        print("You won!")
+                        print("The word was ", word)
+                        return
+                else:
+                    break
+        else:
+            print("Incorrect, try again.")
+            incorrect_guesses = incorrect_guesses + 1
+            
+            
+    print("Game over, the word was", word)
+            
 def main():
     """Step 5: Start the game by calling play_hangman()."""
     play_hangman()

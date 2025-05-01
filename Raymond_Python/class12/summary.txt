@@ -1,0 +1,7 @@
+Today we will do some practice coding problems, implementing some of what we have learned!
+We finished the hangman game last class so today we will look at databases, and then some games.
+We will incorporate database usage into these games, and also look at some databases in the wild.
+
+This will be a chance to do some hands-on coding, make mistakes, and debug.
+
+memory.py and word_scramble.py are games we can do from here 
